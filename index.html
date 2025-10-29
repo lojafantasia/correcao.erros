@@ -6,16 +6,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./src/css/estilo.css">
   <title>Lista Tarefas</title>
+  <script scr="./src/js/script.js"></script>
 <header>
 
 <body>
   <h1>LISTA DE TAREFAS</h1>
-  <p><label for="task">TAREFA:</label>
+  <p>
+    <label for="task">TAREFA:</label>
     <input type="text" id="task" size="25px">
   </p>
+
   <div>
-    <button id="btnAdicionar" onclic="adcionaTarefa()">Adicionar Tarefa</button>
-    <button id="btnRemover" onclic="removeTarefa()">Remover Tarefa</button>
+    <button id="btnAdicionar" onclick="adcionaTarefa()">Adicionar Tarefa</button>
+    <button id="btnRemover" onclick="removeTarefa()">Remover Tarefa</button>
   </div>
   
 
@@ -24,7 +27,7 @@
 
 
 
-  <script scr="./src/js/script.js"></script>
+  <script src="./src/js/script.js"></script>
 </body>
 
 </html>
